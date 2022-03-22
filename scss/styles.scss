@@ -1,0 +1,37 @@
+@import "./variables";
+@import "./components/card";
+@import "./utilities";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: $white;
+  font-family: 'Overpass', sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: $very-dark-blue;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.attribution {
+  color: $primary;
+}

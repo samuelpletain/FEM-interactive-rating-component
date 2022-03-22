@@ -1,0 +1,25 @@
+.radio {
+  &__input {
+    visibility: hidden;
+    position: absolute;
+  }
+  &__input:checked ~ .radio__label {
+    color: white;
+    background-color: $medium-grey;
+  }
+  &__label {
+    color: $light-grey;
+    padding: 1rem;
+    background-color: $medium-blue;
+    border-radius: 100%;
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    &:hover {
+      cursor: pointer;
+      background-color: $primary;
+      color: $white;
+    }
+  }
+}

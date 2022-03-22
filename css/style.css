@@ -1,0 +1,154 @@
+.radio__input {
+  visibility: hidden;
+  position: absolute;
+}
+.radio__input:checked ~ .radio__label {
+  color: white;
+  background-color: #7c8798;
+}
+.radio__label {
+  color: #959eac;
+  padding: 1rem;
+  background-color: #2b333b;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+}
+.radio__label:hover {
+  cursor: pointer;
+  background-color: #fb7413;
+  color: white;
+}
+
+.button {
+  width: 100%;
+  padding: 1rem;
+  text-transform: uppercase;
+  text-align: center;
+  border-radius: 25px;
+  background-color: #fb7413;
+  border: none;
+  letter-spacing: 0.1rem;
+  font-weight: 700;
+  color: white;
+}
+.button:hover {
+  color: #fb7413;
+  background-color: white;
+  cursor: pointer;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.form__button {
+  flex: 0 0 100%;
+  margin-top: 1.5rem;
+}
+
+.card {
+  transition: 1s ease opacity;
+  padding: 2em;
+  border-radius: 20px;
+  background-color: #252d37;
+  max-width: 27rem;
+  min-height: 25rem;
+  height: fit-content;
+}
+.card--thanks {
+  display: none;
+  opacity: 0;
+  flex-direction: column;
+  align-items: center;
+}
+.card__img {
+  padding: 1rem;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  background-color: #2b333b;
+}
+.card__img--thanks {
+  margin: 0;
+  background-color: inherit;
+  border-radius: 0;
+}
+.card__rating {
+  margin: 1rem;
+  color: #fb7413;
+  background-color: #2b333b;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+  border-radius: 2rem;
+}
+.card__header {
+  margin-bottom: 0.5em;
+  font-size: 1.7rem;
+}
+.card__header--thanks {
+  margin: 0 0.5em 0.5em;
+}
+.card__content {
+  margin-bottom: 2rem;
+  color: #959eac;
+}
+.card__content--thanks {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.hidden {
+  opacity: 0;
+}
+
+.disappear {
+  display: none;
+}
+
+.appear {
+  display: flex !important;
+}
+
+.show {
+  opacity: 1 !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  color: white;
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  background-color: #121417;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 1rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.attribution {
+  color: #fb7413;
+}
+
+/*# sourceMappingURL=style.css.map */

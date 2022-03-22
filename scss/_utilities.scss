@@ -1,0 +1,15 @@
+.hidden {
+  opacity: 0;
+}
+
+.disappear {
+  display: none;
+}
+
+.appear {
+  display: flex !important;
+}
+
+.show {
+  opacity: 1 !important;
+}

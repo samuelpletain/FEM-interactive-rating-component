@@ -1,0 +1,14 @@
+@import "./radio";
+@import "./button";
+
+.form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  &__button {
+    flex: 0 0 100%;    
+    margin-top: 1.5rem;    
+  }
+}
+
